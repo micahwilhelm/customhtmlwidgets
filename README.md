@@ -1,12 +1,12 @@
 ### HTML Widgets for R
 
-The **htmlwidgets** package provides a framework for easily creating R bindings to JavaScript libraries. Widgets created using the framework can be:
+The **customhtmlwidgets** package provides a framework for easily creating R bindings to JavaScript libraries. Widgets created using the framework can be:
 
 * Used at the R console for data analysis just like conventional R plots (via RStudio Viewer).
 * Seamlessly embedded within [R Markdown](http://rmarkdown.rstudio.com) documents and [Shiny](http://shiny.rstudio.com) web applications.
 * Saved as standalone web pages for ad-hoc sharing via email, Dropbox, etc.
 
-There are already several R packages based on **htmlwidgets**, including:
+There are already several R packages based on **customhtmlwidgets**, including:
 
 * [leaflet](https://github.com/rstudio/leaflet) -- Interactive maps with OpenStreetMap
 * [dygraphs](https://rstudio.github.io/dygraphs/) --- Interactive time series visualization
@@ -19,13 +19,13 @@ The package was created in collaboration by Ramnath Vaidyanathan, Joe Cheng, JJ 
 
 ### Getting Started
 
-If you know R and a bit of JavaScript it's very straightforward to create your own widgets. You can install the **htmlwidgets** package from CRAN:
+If you know R and a bit of JavaScript it's very straightforward to create your own widgets. You can install the **customhtmlwidgets** package from CRAN:
 
 ```r
 install.packages("htmlwidgets")
 ```
 
-You can alternatively install the development version of **htmlwidgets** from GitHub as follows:
+You can alternatively install the development version of **customhtmlwidgets** from GitHub as follows:
 
 ```r
 devtools::install_github('ramnathv/htmlwidgets')
