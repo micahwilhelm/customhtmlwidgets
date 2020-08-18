@@ -1,6 +1,6 @@
-Package: htmlwidgets
+Package: customhtmlwidgets
 Type: Package
-Title: HTML Widgets for R
+Title: HTML Widgets for R clone to override 1.5.1
 Version: 1.5.1.9001
 Authors@R: c(
     person("Ramnath", "Vaidyanathan", role = c("aut", "cph")),
